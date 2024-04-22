@@ -1,0 +1,40 @@
+html {
+  font-family: Arial, sans-serif; /* Cambiar la fuente a Arial */
+}
+
+.contenido {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 3px solid gray;
+  text-align: justify;
+}
+
+.link-colorido:hover {
+  color: #419412;
+}
+
+.resaltar {
+  font-weight: bold;
+}
+
+@media (max-width: 419px) {
+  section.contenido {
+    width: 90%;
+    border: none;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+  section.contenido {
+    width: 70%;
+    border: 3px solid #2132cf;
+  }
+}
+
+@media (min-width: 768px) {
+  section.contenido {
+    width: 50%;
+    border: 3px solid #808080;
+  }
+}
